@@ -10,7 +10,7 @@ const cors = require('cors')
 
 connectDb()
 server.use(cors({
-    origin: ['https://expense-lcqp.onrender.com/']
+    origin: ['https://expense-lcqp.onrender.com']
 }))
 server.use(express.json()) //passer - to be able to receive the data from the client into the server
 
